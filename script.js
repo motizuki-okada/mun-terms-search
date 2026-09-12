@@ -7,7 +7,7 @@ $(window).on('load', function(){
 
     //chat機能----------------------------------------------------------------------------
     /*DB読み込み*/
-    $.ajax({url: 'https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgkPqT29f2YZ8K_2_b9lcXLMUcJARe5ukfreH8g7Fr5-DtIFPAwVHELKpkWf-c2lvZlNdpEdAG0vtOUC-4k1fdNT2GyGdi9G2Ykqfdr0HiLeK3Bl9BFRdRWhCHOdB-C8HSToCvvUvyIvWXm8EgUJDgPXg7W0NLsVDw4idw98yjEJ15lh4YOntQufKxG0N_bffT8CmsfpwGH3Xn9wR3dD8GH2rRPwFFVZlxdyoYDi-_oJ47t7iiIcmVBSnFFpi85ll1bEsOoYQKsGvkjfrIM9Ag0b_GDLQ&lib=M866x1Xf3qLY2wgT_oT6Sj396qXhm7Y4P', dataType: 'json'}).done(function(data){
+    $.ajax({url: 'https://script.google.com/macros/s/AKfycbwV7xJaaMhPlPDSVZ2iGdbWSTbscjhj9GBNpZOSIZiRLNJcafp5KQtFne8XuMDAoioo/exec', dataType: 'json'}).done(function(data){
         let munTerms = {};
         munTerms = data;
         console.log("データベース読み込み完了");
